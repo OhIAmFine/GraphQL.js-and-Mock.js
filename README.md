@@ -10,11 +10,17 @@
 
 ## 目录结构
 
-- css //样式文件
 
-- dist //打包输出文件
 
-- js  //js模块文件
+─work
+  ├─css
+  ├─dist
+  ├─js
+  └─node_modules
+      ├─.bin
+      ├─@types
+      │  ├─express
+
 
 
 # GraphQL和其他API查询设计的优劣#
