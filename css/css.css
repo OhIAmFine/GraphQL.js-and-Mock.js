@@ -1,0 +1,28 @@
+.div1{
+	color: red;
+}
+.div2{
+	color:blue;
+}
+div:hover{
+	cursor: pointer;
+};
+ol{
+	width: 300px;
+    display: flex;
+    flex-flow: row wrap;
+}
+ol li{
+	font-size: 13px;
+}
+
+#context1{
+	width: 500px;
+	float: left;
+	/*background: red;*/
+}
+#context2{
+	width: 500px;
+	float: right;
+	/*background: blue;*/
+}
