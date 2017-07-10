@@ -1,5 +1,5 @@
 export function buildDom(response,shareObj,calssName,target){
-		let data = response.data[shareObj];
+		let data = response.data.getObj[shareObj];
 		console.log(JSON.stringify(data));
 		let str = '';
 		let oUl = document.createElement('ol');

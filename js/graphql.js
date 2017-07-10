@@ -3,23 +3,26 @@ import {data} from './mock.js';
 
 
 var schema1 = buildSchema(`
-    	type Query {
-   		share: [[String]]
- 	 	}
-	`);
-	var schema2 = buildSchema(`
-    	type Query {
+		type obj{
+		share: [[String]],
    		shared: [[String]]
+		},
+    	type Query {
+   		getObj : obj
  	 	}
 	`);
-	var root1 = {
-		share : () => {
+	class getObj  {
+		share() {
 			return data.share;
 		}
-	};
-	var root2 = {
-		shared :() =>{
+
+		shared() {
 			return data.shared;
 		}
+	}
+	var root1 = {
+		getObj : () => {
+			return new getObj();
+		}
 	};
-export {schema1,schema2,root1,root2,data};
+export {schema1,root1,data,getObj};
