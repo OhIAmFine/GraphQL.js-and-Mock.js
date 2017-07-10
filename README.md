@@ -12,11 +12,10 @@
 
 
 
-─work
-  ├─css
-  ├─dist
-  
-  ├─js
+─work 
+  ├─css 
+  ├─dist 
+  ├─js 
   
   └─node_modules
   
