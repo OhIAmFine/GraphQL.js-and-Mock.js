@@ -13,9 +13,7 @@
 
 
 ─work
-
   ├─css
-  
   ├─dist
   
   ├─js
