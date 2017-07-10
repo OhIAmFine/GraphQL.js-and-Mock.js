@@ -30,7 +30,7 @@
 
 
 
-# GraphQL和其他API查询设计的优劣#
+# GraphQL和其他API查询设计的优劣
 
 - GraphQL 定义了一套严谨的查询语言。REST API 在此毫无建树，基本上 API 的 querystring / body 没有太多章法可循，大家随遇而安。由此，GraphQL 可以很容易地通过类型系统和用户定义的 schema 生成强大的验证工具，保证 query 是正确的，且满足服务器的能力。
 - 使用 GraphQL 并不意味着能提高 API 效率。
