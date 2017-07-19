@@ -22,12 +22,11 @@
   
   └─node_modules
   
-     ├─. bin
+     ├─ bin
      
      ├─ @types
     
      ├─ express
-
 
 
 # GraphQL和其他API查询设计的优劣
