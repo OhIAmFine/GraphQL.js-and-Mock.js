@@ -2,7 +2,7 @@ import { buildSchema } from 'graphql';
 import {data} from './mock.js';
 
 
-var schema1 = buildSchema(`
+var schema = buildSchema(`
 		type obj{
 		share: [[String]],
    		shared: [[String]]
@@ -20,9 +20,9 @@ var schema1 = buildSchema(`
 			return data.shared;
 		}
 	}
-	var root1 = {
+	var root = {
 		getObj : () => {
 			return new getObj();
 		}
 	};
-export {schema1,root1,data,getObj};
+export {schema,root,data,getObj};
