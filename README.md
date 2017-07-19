@@ -22,11 +22,11 @@
   
   └─node_modules
   
-     ├─.bin
+     ├─. bin
     
-     ├─@types
+     ├─ @types
     
-     │  ├─express
+     │  ├─ express
 
 
 
