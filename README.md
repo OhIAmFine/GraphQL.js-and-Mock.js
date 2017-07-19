@@ -1,4 +1,9 @@
 # GraphQL本地查询mock数据demo #
+## 目录安装
+ - git colne
+ 
+ - npm install
+ 
 ##### 利用graphql单次查询mock.js模拟的静态数据
 
 #### 本地通过mock.js 生成前端数据
@@ -16,21 +21,6 @@
 
 └─js
 
-─work
-
-  ├─css
-  
-  ├─dist
-  
-  ├─js 
-  
-  └─node_modules
-  
-     ├─ bin
-     
-     ├─ @types
-    
-     ├─ express
 
 
 # GraphQL和其他API查询设计的优劣
