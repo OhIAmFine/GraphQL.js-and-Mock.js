@@ -23,7 +23,6 @@
   └─node_modules
   
      ├─. bin
-    
      ├─ @types
     
      │  ├─ express
