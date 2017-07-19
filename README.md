@@ -4,6 +4,8 @@
  
  - npm install
  
+ ## 说明
+ 
 ##### 利用graphql单次查询mock.js模拟的静态数据
 
 #### 本地通过mock.js 生成前端数据
