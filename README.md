@@ -12,13 +12,20 @@
 
 
 
-─work 
-  ├─css 
-  ├─dist 
+─work
+
+  ├─css
+  
+  ├─dist
+  
   ├─js 
+  
   └─node_modules
+  
      ├─.bin
+     
      ├─@types
+     
      │  ├─express
 
 
